@@ -7,8 +7,8 @@ Purpose: JS for Homework 1 Patient Registration Form
 
 //dynamic date code
 const d = new Date();
-let text = d.toLocalDateString();
-document.getElementByID("today").innerHTML = text;
+let text = d.toLocaleDateString();
+document.getElementById("today").innerHTML = text;
 
 //name slider code
 let slider = document.getElementById("range");
