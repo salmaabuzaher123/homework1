@@ -27,12 +27,68 @@ form {
 
 h1, h2 {
   text-align: center;
-  font-family: Roboto, sans-serif, monospace;
+  font-family: Helvetica, sans-serif, monospace;
   font-weight: bold;
   flex-grow: 1;
 }
 
 main {
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: normal;
+  flex-grow:1;
+}
+
+.image {
+  text-align: left;
+
+.td1 {
+  text-align: right;
+  font-family: Palatino, sans-serif;
+  font-weight: normal;
+}
+
+th {
+  text-align: center;
+  font-family: Palatino, sans-serif;
+}
+
+footer {
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(128, 208, 255);
+  height: 3.0 rem;
+}
+
+#footer {
+  text-align: right;
+  font-family: Palatino, sans-serif;
+  font-weight: normal;
+  margin-right: 10px;
+}
+  
+label {
+  text-align: right;
+  font-family: Palatino, sans-serif;
+  font-weight: normal;
+}
+
+input {
+  text-align: left;
+  font-family: Palatino, sans-serif;
+  font-weight: normal;
+}
+
+textarea {
+  text-align: left;
+  font-family: Palatino, sans-serif;
+  font-weight: normal;
+}
+
+#today {
+  text-align: left;
+  font-family: Palatino, sans-serif;
+  font-weight: normal;
+  margin-right: 5px;
+}
