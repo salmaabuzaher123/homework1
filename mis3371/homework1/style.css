@@ -30,6 +30,7 @@ h1, h2 {
   font-family: Helvetica, sans-serif, monospace;
   font-weight: bold;
   flex-grow: 1;
+  color: rgb(0, 0, 128)
 }
 
 main {
