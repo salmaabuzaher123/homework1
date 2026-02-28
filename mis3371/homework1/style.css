@@ -33,6 +33,10 @@ h1, h2, h3 {
   color: rgb(0, 0, 128)
 }
 
+h3 {
+  margin-top: -10px;
+}
+
 main {
   text-align: center;
   font-family: Arial, sans-serif;
